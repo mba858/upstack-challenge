@@ -1,0 +1,15 @@
+<mat-toolbar class="main-header" color="primary">
+    <button mat-icon-button [routerLink]="['/']">
+    <mat-icon>restaurant</mat-icon>
+  </button>
+    <div class="branding">
+        Restaurants
+    </div>
+    <div class="search-bar" fxFlex>
+        <form class="search-form">
+            <mat-icon>search</mat-icon>
+            <input type="text" placeholder="Search" autofocus="true" [(ngModel)]="searchQuery" name="restaurantSearch" (input)="watchSearch()" />
+        </form>
+    </div>
+
+</mat-toolbar>

@@ -1,0 +1,21 @@
+[{
+        "id": 1,
+        "image": 1,
+        "name": "Kennington Lane Cafe",
+        "reviews": 1950,
+        "description": "What a great little find! nice food",
+        "cuisine": ["british"],
+        "city": "london",
+        "popularDish": "Vegetarian Friendly, Vegan Options, Gluten Free Options"
+    },
+    {
+        "id": 2,
+        "image": 2,
+        "name": "Scarlett Green",
+        "reviews": 901,
+        "description": "What you can expect during your visit? Face masks required for staff in public areas Hand sanitizer available to guests & staff",
+        "cuisine": ["australian"],
+        "city": "Sydeny",
+        "popularDish": "Vegetarian Friendly, Vegan Options, Gluten Free Options"
+    }
+]
